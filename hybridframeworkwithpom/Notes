@@ -30,6 +30,8 @@ Github:
   
   Commit - it will save your changes locally to that branch - local saving
   push - it will send your code to github   - remote save
+  
+  pull - get the code from remote machine to your local machine.
    
    
    
