@@ -1,0 +1,35 @@
+return type:
+
+	public static String someMethod()
+	{
+		// line 1 or code 1
+		// line 2 or code 2
+		// line 3 or code 3
+		// line 4 or code 4
+		// line 5 or code 5
+		return "";
+	}
+	
+Github:
+
+  Centrolized repository
+  
+  master - main branch - 10 files
+  you will get this into your local machine by cloning
+  on top that they will create another branch. JIRA-1234 - log in functionality.
+  
+  branch - JIRA-1234 - start writing your code - login - 11 files 
+   commit - save
+   push - it will go to github
+   pull - get it form the github
+   merge your JIRA-1234 to master - master will have latest code
+   
+   abc
+  
+  merge conflicts  
+   
+   
+   
+   
+  
+  
