@@ -26,7 +26,10 @@ Github:
    
    abc
   
-  merge conflicts  
+  merge conflicts 
+  
+  Commit - it will save your changes locally to that branch - local save
+  push - it will send your code to github   - remote save
    
    
    
