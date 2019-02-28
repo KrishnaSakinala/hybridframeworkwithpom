@@ -8,6 +8,7 @@
           <include name="placeOrderByNB"/>
           <include name="init"/>
           <include name="getResult"/>
+          <include name="placeOrderByCOD"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.PlaceOrderTest -->

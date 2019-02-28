@@ -5,6 +5,7 @@
 	<groupId>in.automationtesting</groupId>
 	<artifactId>hybridframeworkwithpom</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-server -->
 		<dependency>

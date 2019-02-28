@@ -40,9 +40,9 @@ public class BaseTest {
 	@BeforeSuite
 	public void init() throws IOException
 	{
-		eat = new ExcelApiTest("/Users/krishnasakinala/eclipse-workspace/hybridframeworkwithpom/src/main/java/resources/TestData.xlsx");
+		eat = new ExcelApiTest("./src/main/java/resources/TestData.xlsx");
 		
-		fis = new FileInputStream("/Users/krishnasakinala/eclipse-workspace/hybridframeworkwithpom/src/main/java/resources/config.properties");
+		fis = new FileInputStream("./src/main/java/resources/config.properties");
 		
 		config = new Properties();
 		config.load(fis);
@@ -67,12 +67,12 @@ public class BaseTest {
 		{
 			if(config.getProperty("browser").equalsIgnoreCase("chrome"))
 			{
-				System.setProperty("webdriver.chrome.driver", "/KRISHNA VOLUME/Selenium/drivers/chromedriver");
+				System.setProperty("webdriver.chrome.driver", "./src/main/java/drivers/chromedriver");
 				driver = new ChromeDriver();
 			}
 			else
 			{
-				System.setProperty("webdriver.gecko.driver", "/KRISHNA VOLUME/Selenium/drivers/geckodriver");
+				System.setProperty("webdriver.gecko.driver", "./src/main/java/drivers/geckodriver");
 				driver = new FirefoxDriver();
 			}
 		}
@@ -120,7 +120,7 @@ public class BaseTest {
 	{
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		String dest = "/Users/krishnasakinala/eclipse-workspace/hybridframeworkwithpom/src/test/resources/ErrorScreenshots/"+ screenshotName +".png";
+		String dest = "./src/test/resources/ErrorScreenshots/"+ screenshotName +".png";
 		File destination = new File(dest);
 		FileHandler.copy(source, destination);
 		return dest;
